@@ -40,6 +40,16 @@ app.set('views', './views')
 app.get('/', async function (request, response) {
    // Render index.liquid uit de Views map
    // Geef hier eventueel data aan mee
+   const params = {
+    'filter[district]': 'algemeen'
+  }
+
+  const apiURL = 'https://fdnd-agency.directus.app/items/buurtcampuskrant_stories?' + new URLSearchParams(params)
+  // console.log(apiURL)
+
+  const personResponse = await fetch(apiURL)
+  const personResponseJSON = await personResponse.json()
+  // console.log(personResponseJSON.data)
    response.render('index.liquid')
 })
 

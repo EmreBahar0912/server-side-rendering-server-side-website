@@ -1,0 +1,22 @@
+{% render 'partials/head.liquid' %}
+
+<h1>Nieuw-West</h1>
+<input type="text" placeholder="Zoek in nieuws...">
+
+<details>
+    <summary>Sorteer</summary>
+    <a href="">Nieuw-oud</a>
+    <a href="">Oud-nieuw</a>
+</details>
+
+{% for story in stories %}
+    <section>
+        <img src="https://fdnd-agency.directus.app/assets/{{ story.cover.id }}" alt="">
+        <h2>{{ story.title }}</h2>
+        <p>{{ story.intro }}</p>
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-icon lucide-calendar"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></svg>
+            <span>{{ story.date }}</span>
+        </div>
+    </section>
+{% endfor %}

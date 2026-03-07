@@ -9,8 +9,9 @@
     <a href="/algemeen-nieuws-oud-nieuw">Oud-nieuw</a>
 </details>
 
+<article class="grid-container">
 {% for story in stories %}
-    <section>
+    <section class="test-news">
         <img src="https://fdnd-agency.directus.app/assets/{{ story.cover.id }}" alt="">
         <h2>{{ story.title }}</h2>
         <p>{{ story.intro }}</p>
@@ -20,3 +21,4 @@
         </div>
     </section>
 {% endfor %}
+</article>

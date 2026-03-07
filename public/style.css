@@ -3,6 +3,19 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Arial-reg;
+    src: url(/arial.ttf);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial-reg;
+}
+
+p {
+    font-family: Arial-reg;
+}
+
 .grid-container {
     display: grid;
     /* width: fit-content; */

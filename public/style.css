@@ -12,6 +12,12 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Arial-reg;
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 0.5em;
+}
+
 p {
     font-family: Arial-reg;
 }
@@ -33,6 +39,12 @@ nav {
 .bc-hva-logo {
     width: 254px;
     height: 54px;
+}
+
+input {
+    width: calc(100% - 2rem);
+    margin-inline: 1rem;
+    padding: 0.5rem;
 }
 
 .grid-container {

@@ -10,6 +10,7 @@
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Arial-reg;
+    line-height: 1.2;
 }
 
 h1 {
@@ -20,6 +21,7 @@ h1 {
 
 p {
     font-family: Arial-reg;
+    line-height: 1.4;
 }
 
 nav {
@@ -117,4 +119,25 @@ li:hover {
             stroke: #545964;
         }
     }
+}
+
+footer {
+    display: grid;
+    background-color: black;
+    color: white;
+    padding: 1em;
+    gap: 1em;
+
+    div {
+        place-self: center;
+
+        .edition {
+            text-decoration: underline;
+            color: inherit;
+        }
+    }
+}
+
+.edition:hover {
+    text-decoration: none;
 }

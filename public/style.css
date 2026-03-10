@@ -38,6 +38,13 @@ a {
     background-color: white;
     box-shadow: 0 6px 4px rgba(0, 0, 0, 0.1);
 
+    button {
+        background: none;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+    }
+
     svg {
         align-self: center;
     }
@@ -98,7 +105,7 @@ li.sort-list:hover {
 .menu {
     /* display: grid;
     place-content: center; */
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     position: fixed;
@@ -107,12 +114,34 @@ li.sort-list:hover {
     height: 100vh;
     z-index: 9;
 
+    &.is-open {
+        display: flex;
+    }
+
+    .menu-close {
+        position: absolute;
+        top: 0.5em;
+        right: 0;
+        background-color: black;
+        border: none;
+        width: 2.5rem;
+        height: 2.5rem;
+        cursor: pointer;
+
+        svg {
+            display: flex;
+            stroke: white;
+            margin: 0 auto;
+        }
+    }
+
     ul {
         list-style: none;
         position: static;
         place-items: center;
         padding: 0;
         border: 0;
+        padding-block: 0 5em;
 
         details {
             margin: 0;

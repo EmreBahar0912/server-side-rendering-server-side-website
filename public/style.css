@@ -28,6 +28,10 @@ a {
     font-family: Arial-reg;
 }
 
+summary {
+    font-family: Arial-reg;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -150,7 +154,39 @@ li.sort-list:hover {
             border: none;
 
             summary {
+                font-size: 2em;
                 padding: 0;
+                color: #101828;
+                transition: color 0.2s ease;
+
+                &:hover {
+                    color: #344054;
+                }
+
+                svg {
+                    width: 1em;
+                    height: 1em;
+                    stroke: #101828;
+                    transition: color 0.2s ease;
+
+                    &:hover {
+                        color: #344054;
+                    }
+                }
+            }
+
+            ul {
+
+                li {
+                    a {
+                        color: #4A5565;
+                        transition: color 0.2s ease;
+
+                        &:hover {
+                            color: #697586;
+                        }
+                    }
+                }
             }
         }
 
@@ -159,6 +195,11 @@ li.sort-list:hover {
                 text-decoration: none;
                 color: #101828;
                 font-size: 2em;
+                transition: color 0.2s ease;
+
+                &:hover {
+                    color: #344054;
+                }
             }
         }
     }

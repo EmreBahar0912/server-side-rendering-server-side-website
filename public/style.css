@@ -105,7 +105,9 @@ li.sort-list:hover {
 .menu {
     /* display: grid;
     place-content: center; */
-    display: none;
+    display: flex;
+    transform: translateX(-100%);  /* verborgen links buiten scherm */
+    transition: transform 0.3s ease;
     align-items: center;
     justify-content: center;
     position: fixed;
@@ -115,7 +117,7 @@ li.sort-list:hover {
     z-index: 9;
 
     &.is-open {
-        display: flex;
+        transform: translateX(0);
     }
 
     .menu-close {

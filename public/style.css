@@ -176,6 +176,7 @@ li.sort-list:hover {
             }
 
             ul {
+                padding: 0;
 
                 li {
                     a {

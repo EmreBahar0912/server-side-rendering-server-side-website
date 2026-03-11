@@ -88,6 +88,23 @@ app.get('/zoeken', async function (request, response) {
    response.render('index.liquid', {stories: apiResponseJSON.data, search})
 })
 
+app.get('/zoeken', async function (request, response) {
+  const search = request.query.search || ''
+
+   const params = {
+    'fields': 'title, intro, date, cover.id',
+    ...(search && {'filter[title][_icontains]': search})
+  }
+
+  const apiURL = 'https://fdnd-agency.directus.app/items/buurtcampuskrant_stories?' + new URLSearchParams(params)
+  // console.log(apiURL)
+
+  const apiResponse = await fetch(apiURL)
+  const apiResponseJSON = await apiResponse.json()
+  // console.log(personResponseJSON.data)
+   response.render('nieuw-west', {stories: apiResponseJSON.data, search})
+})
+
 app.get('/algemeen-nieuws-nieuw-oud', async function (request, response) {
    // Render index.liquid uit de Views map
    // Geef hier eventueel data aan mee

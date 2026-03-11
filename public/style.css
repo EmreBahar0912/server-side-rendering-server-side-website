@@ -42,6 +42,17 @@ summary {
     background-color: white;
     box-shadow: 0 6px 4px rgba(0, 0, 0, 0.1);
 
+    a {
+        all: unset;
+        cursor: pointer;
+
+        .bc-hva-logo {
+            display: block;
+            width: 254px;
+            height: 54px;
+        }
+    }
+
     button {
         background: none;
         border: none;
@@ -52,11 +63,6 @@ summary {
     svg {
         align-self: center;
     }
-}
-
-.bc-hva-logo {
-    width: 254px;
-    height: 54px;
 }
 
 input {

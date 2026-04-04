@@ -41,7 +41,6 @@ Daarnaast heb ik samen met de hulp van mijn docenten ervoor gekozen om het archi
 
 Ik heb ook een hamburger menu gemaakt met HTML, CSS & JavaScript. Deze kun je openen door op het hamburger-icoon te klikken rechtsbovenin de navigatiebar. En sluiten door in het geopende menu op het kruisje te klikken. Vanuit het hamburger menu kun je navigeren naar verschillende pagina's. Deze sprint heb ik naast de Homepage ook de Nieuw-West pagina gemaakt om bekender te worden met het filter parameter.
 
-<img width="367" height="172" alt="image" src="https://github.com/user-attachments/assets/9597b26f-ccdd-42bb-801f-2dcce14d5c20" />
 <img width="380" height="604" alt="image" src="https://github.com/user-attachments/assets/58e01271-a4be-4ea1-a6ae-4df2f2932f18" />
 
 ## Kenmerken

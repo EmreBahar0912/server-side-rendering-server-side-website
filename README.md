@@ -1,9 +1,11 @@
-# Server-Side Website
+# Buurtcampuskrant - Challenge: data ophalen & design artikel
+Tijdens deze sprint werd de focus gelegd op het ophalen van data uit onze database en dit te laten renderen op de browser. Daarnaast werd de focus ook gelegd op het maken van een goed en mooi design van voornamelijk de nieuwsartikelen.
 
-Ontwerp en ontwikkel een server-side website voor een opdrachtgever
+**Wat is de Buurtcampuskrant?**
 
-De instructie vind je in: [INSTRUCTIONS.md](https://github.com/fdnd-task/server-side-rendering-server-side-website/blob/main/docs/INSTRUCTIONS.md)
+De buurtcampuskrant is een krant bedoeld voor de districten; Nieuw-West, Oost & Zuidoost in Amsterdam. Met drie Buurtcampussen in verschillende stadsdelen richten zij op actuele uitdagingen in de wijken van Amsterdam.
 
+De Buurtcampus heeft vestigingen in OBA Geuzenveld (Nieuw-West), OBA Linnaeus (Oost) en OBA Ganzenhoef (Zuidoost). Dit zijn toegankelijke plekken waar studenten projecten ontwikkelen en uitvoeren, waar activiteiten plaatsvinden voor de buurtbewoners en waar onderzoekers aansluiting vinden bij hun wijkgerichte vragen. Het is een laagdrempelige plek waar de HvA en de wijk elkaar ontmoeten en waar opgedane kennis wordt teruggekoppeld aan de buurt.
 
 ## Inhoudsopgave
 

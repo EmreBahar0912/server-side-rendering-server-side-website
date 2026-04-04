@@ -63,6 +63,7 @@ Stap 4 ) Na de installatie is de map node_modules aangemaakt, en gevuld met alle
 ## Bronnen
 - [Liquid - if/else](https://shopify.dev/docs/api/liquid/tags/conditional-else)
 - [JavaScript - 3 stappenplan](https://css-tricks.com/videos/150-hey-designers-know-one-thing-javascript-recommend/)
+- [De Volkskrant - inspiratie](https://www.volkskrant.nl/)
 - [NodeJS download](https://nodejs.org/en/download)
 
 ## Licentie

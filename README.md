@@ -47,6 +47,17 @@ Ik heb ook een hamburger menu gemaakt met HTML, CSS & JavaScript. Deze kun je op
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+Ik heb data opgehaald uit de database door middel van een `GET` method. Om te bepalen welke data ik wil ophalen en vervolgens te renderen heb ik met `params` aangegeven welke data ik uit de database wil ophalen. Hier is een voorbeeld ervan:
+https://github.com/EmreBahar0912/server-side-rendering-server-side-website/blob/67020054aacfa2f070bd0079c1f9356e202c5249/server.js#L40-L46
+
+In mijn Liquid bestand heb ik ook gebruik gemaakt van `if/else` statements, bijvoorbeeld bij `date`. Er zijn een aantal nieuwsartikelen die geen datum hebben, dus als die waarde `null` is dan komt er `Datum onbekend` te staan.
+https://github.com/EmreBahar0912/server-side-rendering-server-side-website/blob/67020054aacfa2f070bd0079c1f9356e202c5249/views/index.liquid#L30-L37
+
+Mijn hamburger menu heb ik gemaakt volgens het [JavaScript 3 stappenplan](https://css-tricks.com/videos/150-hey-designers-know-one-thing-javascript-recommend/).
+https://github.com/EmreBahar0912/server-side-rendering-server-side-website/blob/67020054aacfa2f070bd0079c1f9356e202c5249/public/main.js#L1-L3
+https://github.com/EmreBahar0912/server-side-rendering-server-side-website/blob/67020054aacfa2f070bd0079c1f9356e202c5249/public/main.js#L7-L15
+
+Voor de hamburger menu interactie heb ik ook [user tests](https://github.com/EmreBahar0912/the-web-is-for-everyone-interactive-functionality/issues/34) uitgevoerd.
 
 ## Installatie
 <!-- Bij Instalatie staat hoe een andere developer aan jouw repo kan werken -->
